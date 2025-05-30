@@ -1,0 +1,3 @@
+0 Papel
+1 Tijera
+2 Piedra
