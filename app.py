@@ -47,8 +47,8 @@ if img_file_buffer is not None:
     if prediction[0][0]>0.5:
       st.header('Papel, con Probabilidad: '+str( prediction[0][0]) +' ' +'```Es súper efectivo! Has ganado la batalla.```')
     if prediction[0][1]>0.5:
-      st.header('Tijera, con Probabilidad: '+str( prediction[0][1]))
+      st.header('Tijera, con Probabilidad: '+str( prediction[0][1]) +' ' +'```Han empatado la batalla.```')
     if prediction[0][2]>0.5:
-     st.header('Piedra, con Probabilidad: '+str( prediction[0][2]))
+     st.header('Piedra, con Probabilidad: '+str( prediction[0][2]) +' ' +'```No es muy efectivo... Has perdido la batalla.```')
 
 
