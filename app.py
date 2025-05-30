@@ -18,7 +18,8 @@ st.title("Batalla de Pokémon!")
 image = Image.open('Types.png')
 st.image(image, width=350)
 with st.sidebar:
-    st.subheader("""Has entrado en una batalla con un pokémon salvaje. 
+    st.subheader("""
+    Has entrado en una batalla con un pokémon salvaje. 
     Utiliza papel, tijera o piedra para combatir, y dependiendo de su
     tipo podrás tener éxito. Buena suerte!
     """)
